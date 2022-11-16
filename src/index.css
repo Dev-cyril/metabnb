@@ -147,7 +147,7 @@ li button{
   font-size: 48px;
 }
 #houses{
-  width: 86%;
+  width: 95%;
   max-width: 1240px;
   display: flex;
   flex-wrap: wrap;
@@ -250,7 +250,7 @@ footer #img_icon{
   color: #f1f3f9c7;
 }
 #txt h3 {
-  font-size: 54px;
+  font-size: 40px;
   font-weight: 700;
 }
 #nft_txt > h2{
@@ -266,11 +266,11 @@ footer #img_icon{
   background-color: #fff;
   flex-direction: column;
   margin: 0 auto -50%;
-  width: 42%;
+  width: 48%;
   border-radius: 16px;
   padding: 0 20px 20px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
@@ -417,6 +417,10 @@ footer #img_icon{
     width: 20%;
     margin-left: 30px;
   }
+  #txt h3 {
+    font-size: 30px;
+    font-weight: 700;
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -465,5 +469,9 @@ footer #img_icon{
   }
   #dGrid {
     width: 82%;
+  }
+  #txt h3 {
+    font-size: 24px;
+    font-weight: 700;
   }
 }
