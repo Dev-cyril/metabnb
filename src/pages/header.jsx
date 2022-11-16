@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useRef, useEffect } from 'react';
 import img1 from '../images/image 66.png'
 import img2 from '../images/image 69.png'
-import img3 from '../images/vector.png'
+import img3 from '../images/nft.png'
 
 
 const Header = ()=>{
