@@ -15,9 +15,7 @@ import frame6 from '../images/Frame 151 (5).png'
 import frame7 from '../images/Frame 151 (6).png'
 import frame8 from '../images/Frame 151(7).png'
 import star from '../images/Star 2.png'
-import nft1 from '../images/image 7.png'
-import nft2 from '../images/image 8.png'
-import nft3 from '../images/image 9.png'
+import nft3 from '../images/Frame 59546.png'
 import Header from './header'
 import Footer from './Footer'
 
@@ -84,9 +82,7 @@ const Page = () => {
                     <button>Learn more</button>
                 </div>
                 <div id="nft_imgs">
-                    <img src={nft3} alt="" style={{ 'marginBottom': '-36%', 'marginRight': '-64%', 'marginLeft': '17%' }} />
-                    <img src={nft1} alt="" style={{ 'marginBottom': '-67%', 'marginRight': '-7.1%', 'marginTop': '37.3%', 'marginLeft': '-28.2%' }} />
-                    <img src={nft2} alt="" style={{ 'marginBottom': '-67%', 'marginRight': '-24%', 'marginTop': '-0.7%', 'marginLeft': '-12.5%' }} />
+                    <img src={nft3} alt="" id="nft3"/>
                 </div>
             </section>
             <Footer />

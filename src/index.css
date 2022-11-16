@@ -179,10 +179,9 @@ li button{
 #nfts{
   background-color: #ad167d;
   margin-top: 50px;
-  height: 774px;
   display: flex;
-  padding: 70px 30px 0 30px;
-  justify-content: space-around;
+  padding: 70px 30px;
+  justify-content: space-between;
 }
 #nft_txt{
   width: 45%;
@@ -191,8 +190,9 @@ li button{
   width: 50%;
 }
 #nft_imgs img{
-  width: 60%;
+  width: 90%;
   max-width: 378.2px;
+
 }
 #nfts button{
   height: 48px;
@@ -375,7 +375,7 @@ footer #img_icon{
   }
   #nfts{
     flex-direction: column;
-    height: 1000px;
+    gap: 50px;
   }
   #nft_txt{
     width: 90%;
