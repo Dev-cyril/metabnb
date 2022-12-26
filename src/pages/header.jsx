@@ -53,12 +53,6 @@ const Header = ()=>{
                                 <a href={`places-to-visit`}>Place to stay</a>
                             </li>
                             <li>
-                                <a href="">NFTs</a>
-                            </li>
-                            <li>
-                                <a href="">Community</a>
-                            </li>
-                            <li>
                                 <button
                                     onClick={handleClick}>Connect wallet</button>
                             </li>
